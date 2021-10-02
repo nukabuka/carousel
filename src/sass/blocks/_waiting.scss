@@ -1,0 +1,41 @@
+.waiting{
+    min-height: 470px;
+    padding: 70px 0 95px 0;
+    background: #f6f6f6;
+    &__header{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__wrapper{
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;}
+    &__items{
+        max-width: 237px;
+    }
+    &__icon{
+        display: block;
+        margin: 0 auto;
+    }
+    &__title{
+        line-height: 0;
+        margin-top: 38px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__subtitle{
+        
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        color: #0d0d0d;
+        span{
+            color: #f00;
+        }
+    }
+}
