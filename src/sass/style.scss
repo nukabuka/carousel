@@ -1,14 +1,16 @@
 @import 'base/variabiles';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/button';
+
 
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
-    }
-    
-h1{
-    color: red;
 }
-    h2{
-        color: green;
-    }
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 
     
