@@ -18,7 +18,7 @@ gulp.task('server', function() {
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 gulp.task('styles', function() {
-    return gulp.src("src/sass/*.+(sass|scss)")
+    return gulp.src("src/sass/**/*.+(sass|scss)")
 
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename({
