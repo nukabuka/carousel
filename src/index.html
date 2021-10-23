@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
+    <link rel="stylesheet" href="css/slick.css">
+
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>windows and linux forever</title>
 </head>
 <body> 
- <div class="promo">
+ <section class="promo">
      <div class="container">
          <header class="header">
             <a href="#" class="header__logo">   <img src="icons/logo.svg" alt="logo"></a>
@@ -27,21 +29,21 @@
          <div class="promo__wrapper">
             <h1 class="promo__header">Подбор пульсометра</h1>
             <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
-            <div class="promo__icons">
-                <div class="promo__icon">
-                    <img src="icons/timer.svg" alt="timer">Время подбора: 10 минут</div>
-                <div class="promo__icon">
-                    <img src="icons/delivery.svg" alt="delivery">Бесплатная доставка</div>
-                <div class="promo__icon">
-                    <img src="icons/suport.svg" alt="suport">Ответим на все вопросы</div>
-            </div>
+                <div class="promo__icons">
+                    <div class="promo__icon">
+                        <img src="icons/timer.svg" alt="timer">Время подбора: 10 минут</div>
+                    <div class="promo__icon">
+                        <img src="icons/delivery.svg" alt="delivery">Бесплатная доставка</div>
+                    <div class="promo__icon">
+                        <img src="icons/suport.svg" alt="suport">Ответим на все вопросы</div>
+                </div>
             <button class="button button_main">заказать КОНСУЛЬТАЦИЮ</button>
             <div class="promo__link">или  <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a></div>
          </div>
          
      </div>
- </div>
-<div class="waiting">
+    </section>
+<section class="waiting">
     <div class="container">
         <div class="title">  НАШИ ПРЕИМУЩЕСТВА </div>
         <div class="waiting__wrapper">
@@ -73,8 +75,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="consultation">
+</section>
+<section class="consultation">
     <div class="container">
         <h2 class="title title_left">
             Получите бесплатную консультацию <br>
@@ -91,7 +93,53 @@
             <!-- <input type="reset"> -->
         </form>
     </div>
-</div>
-    
+</section>
+<section class="carousel">
+    <div class="container">
+        <div class="carousel__inner">
+            <div> <img src="carusel/watch_1.png" alt="slide"></div>
+            <div> <img src="carusel/watch_2.png" alt="slide"></div>
+            <div> <img src="carusel/watch_3.png" alt="slide"></div>
+          </div>
+    </div>
+</section>
+<section class="catalog">
+    <div class="container">
+        <h2 class="title">
+            Каталог пульсометров
+        </h2>
+        <ul class="catalog__tabs">
+            <li class="catalog__tab catalog__tab_active"><div>Для фитнеса</div></li>
+            <li class="catalog__tab"><div>для бега</div></li>
+            <li class="catalog__tab"><div>для триатлона</div></li>
+        </ul>
+        <div class="catalog__content">
+            <div class="catalog-item">
+                <img src="carusel/cotolog.png" alt="pulsometr" class="catalot-item__img">
+                <div class="catalog-item__subtitle">Пульсометр Polar FT </div>
+                <div class="catalog-item__deskr">Для первых шагов в тренировках, основанных на сердечном ритме  </div>
+                <div class="catalog-item__link">ПОДРОБНЕЕ</div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price-old">4 750 руб.</div>
+                        <div class="catalog-item__price">4 500 руб.</div>
+                    </div>
+                    <button class="catalog-item__btn">КУПИТЬ</button>
+                </div>
+            </div>
+        </div>
+        <div class="catalog__content"></div>
+        <div class="catalog__content"></div>
+    </div>
+</section>
+
+
+    <!-- скрипты -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
