@@ -1,7 +1,6 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +9,14 @@
     "type": "git",
     "url": "git+https://github.com/nukabuka/project.git"
   },
-  "author": "",
+  "author": "magomed",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nukabuka/project/issues"
   },
   "homepage": "https://github.com/nukabuka/project#readme",
   "dependencies": {
+    "browser-sync": "^2.27.7",
     "gulp-cli": "^2.3.0"
   },
   "devDependencies": {
@@ -24,5 +24,6 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.0.0"
-  }
+  },
+  "description": ""
 }
