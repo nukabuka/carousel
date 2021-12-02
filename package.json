@@ -1,5 +1,5 @@
 {
-  "name": "js",
+  "name": "magomed",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,14 +16,24 @@
   },
   "homepage": "https://github.com/nukabuka/project#readme",
   "dependencies": {
+<<<<<<< HEAD
     "browser-sync": "^2.27.7",
     "gulp-cli": "^2.3.0"
+=======
+    "browser-sync": "^2.27.5"
+>>>>>>> 87c8174a171d9c7045adc1a20fd22dc76dc811f9
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
+<<<<<<< HEAD
     "gulp-sass": "^5.0.0"
+=======
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.39.2"
+>>>>>>> 87c8174a171d9c7045adc1a20fd22dc76dc811f9
   },
   "description": ""
 }
