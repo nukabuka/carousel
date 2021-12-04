@@ -1,4 +1,57 @@
-// .comments{
-//     min-height: 1555px;
-    
-// }
+.comments{
+    min-height: 915px;
+    padding-bottom: 71px;
+    &__content{
+        margin-top: 70px;
+    }
+    &-items{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        padding-left: 97px;
+        :last-child{
+            margin-bottom: 0;
+        }
+        &__wrraper{
+            // margin-left: 62px;
+            max-width: 655px ;
+        }
+        &__logo{
+            width: 169px;
+            height: 169px;
+            border-radius: 100%;
+        }
+        &__header{
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+            span{
+                font-size: 14px;
+                font-size: 14px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #646464;
+            }
+        }
+        &__text{
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0d0d0d;
+        }
+    }
+
+}
