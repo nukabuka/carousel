@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <title>windows and linux forever</title>
 </head>
- <section class="promo">
+ <section id="top" class="promo">
      <div class="container">
          <header class="header">
             <a href="#" class="header__logo">   <img src="icons/logo.svg" alt="logo"></a>
@@ -83,13 +83,11 @@
         </h2>
         <div class="consultation__descr">Просто заполните форму заявки <br>
             и мы перезвоним вам в течении 10 минут</div>
-                <form class="feed-form" action="#">
+                <form id="consultation-form" class="feed-form" action="#">
                     <input required  name="name" placeholder="ваше имя" type="name">
-                    <input required  name="phone"   placeholder="ваш телефон" type="number">
+                    <input required  name="phone"   placeholder="ваш телефон">
                     <input required  name="email"   placeholder="ваш E-mail" type="email">
-                    <!-- <input value="заказать консультацию" type="submit"> -->
                     <button class="button button_submit">заказать консультацию</button>
-                    <!-- <input type="reset"> -->
                 </form>
     </div>
 </section>
@@ -99,7 +97,7 @@
             <div> <img src="carusel/watch_1.png" alt="slide"></div>
             <div> <img src="carusel/watch_2.png" alt="slide"></div>
             <div> <img src="carusel/watch_3.png" alt="slide"></div>
-          </div>
+        </div>
     </div>
 </section>
 <section class="catalog">
@@ -377,7 +375,7 @@
         <div class="modal__deskr">и мы перезвоним вам течении 10 минут</div>
         <form class="feed-form feed-form_mt25" action="#">
             <input required  name="name" placeholder="ваше имя" type="name">
-            <input required  name="phone"   placeholder="ваш телефон" type="number">
+            <input required  name="phone"   placeholder="ваш телефон" >
             <input required  name="email"   placeholder="ваш E-mail" type="email">
             <button class="button button_submit">заказать консультацию</button>
         </form>
@@ -389,7 +387,7 @@
         <div class="modal__deskr"></div>
         <form class="feed-form feed-form_mt25" action="#">
             <input required  name="name" placeholder="ваше имя" type="name">
-            <input required  name="phone"   placeholder="ваш телефон" type="number">
+            <input required  name="phone"   placeholder="ваш телефон">
             <input required  name="email"   placeholder="ваш E-mail" type="email">
             <button class="button button_submit">купить</button>
         </form>
@@ -404,12 +402,14 @@
     </div>
 
 </div>
-
+<a href="#top" class="up" ><img src="icons/up.svg" alt="scroll up" ></a>
 
     <!-- скрипты -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 
 

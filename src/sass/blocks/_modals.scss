@@ -47,6 +47,14 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    .error{
+        border: 1px solid red;
+    }
+    label.error{
+        border: none;
+        margin-bottom: 15px;
+        text-align: center;
+    }
   
 }
 

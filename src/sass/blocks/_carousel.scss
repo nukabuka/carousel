@@ -5,6 +5,10 @@
         max-width: 750px;
         margin: 0 auto;
     }
+    .slick-slide img {
+        display: block;
+        width: 100%;
+    }
     .slick-prev{
         position: absolute;
         top: 50%;
