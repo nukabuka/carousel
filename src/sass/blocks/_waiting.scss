@@ -18,6 +18,16 @@
     &__icon{
         display: block;
         margin: 0 auto;
+        &_animated{
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+          }  
+        
     }
     &__title{
         line-height: 0;
