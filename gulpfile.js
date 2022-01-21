@@ -6,6 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 const htmlmin = require('gulp-htmlmin');
 
+
 gulp.task('server', function() {
 
     browserSync({
@@ -59,4 +60,5 @@ gulp.task('mailer', function () {
 });
 
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer', 'html', ));
+
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer', 'html' ));

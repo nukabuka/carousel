@@ -209,7 +209,28 @@
   .footer-info{
    width: 100%;
   }
+  
+  .modal{
+    // padding: 38px 29px 40px 29px;
+    width: 300px;
+   .feed-form{
+      width: 100%;
+   }
+  }
+  .button_submit {
+    width: 100%;
+    
+}
  
+  
+  .modal__close{
+    font-size: 0;
+    width: 1000%;
+    top: -100%;
+    height: 1000%;
+    z-index: -1;
+  }
+  
   
 }
 
