@@ -1,31 +1,28 @@
 {
-  "name": "magomed",
+  "name": "pulse",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nukabuka/project.git"
-  },
-  "author": "magomed",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nukabuka/project/issues"
-  },
-  "homepage": "https://github.com/nukabuka/project#readme",
-  "dependencies": {
-    "browser-sync": "^2.27.5",
-    "gulp-rename": "^2.0.0"
-  },
   "devDependencies": {
+    "browser-sync": "^2.26.5",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.3.0",
-    "gulp-sass": "^5.0.0",
-    "sass": "^1.44.0"
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
   },
-  "description": ""
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
